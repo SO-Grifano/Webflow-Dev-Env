@@ -1,0 +1,21 @@
+{
+  "name": "webflow-dev-env",
+  "version": "1.0.0",
+  "description": "This package is designed by Keegan WebBae to make maintain custom code more comfortable for Webflow Developers ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "serve",
+    "build": "esbuild index.ts --bundle --minify --outfile=dist/index.js --watch",
+    "build-by-file": "node builder.js"
+  },
+  "author": "Serhii Orlenko",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.19.4",
+    "serve": "^14.2.1"
+  },
+  "dependencies": {
+    "@splidejs/splide": "^4.1.4"
+  }
+}
